@@ -1,0 +1,209 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Customers.CarDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:id="@+id/l1">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="20dp"
+            app:cardElevation="15dp">
+
+
+
+        <RelativeLayout
+            android:id="@+id/r1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:background="@color/colorAccent">
+
+
+    <ImageView
+        android:id="@+id/car_image"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:scaleType="centerCrop" />
+
+            <View
+                android:id="@+id/ln0"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_below="@id/car_image"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="3dp"
+                android:background="@color/colorPrimaryDark" />
+
+
+            <TextView
+                android:id="@+id/car_name_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ln0"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/lexend"
+                android:text="Car Name"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16dp" />
+
+            <View
+                android:id="@+id/ln1"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_below="@id/car_name_details"
+                android:background="@color/colorPrimaryDark" />
+
+
+            <TextView
+                android:id="@+id/car_description_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ln2"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/lexend"
+                android:text="Car Description"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16dp" />
+
+            <View
+                android:id="@+id/ln3"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_below="@id/car_description_details"
+                android:background="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/car_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ln1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/lexend"
+                android:text="Car Type"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16dp" />
+
+            <View
+                android:id="@+id/ln2"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_below="@id/car_type"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:background="@color/colorPrimaryDark" />
+
+
+            <TextView
+                android:id="@+id/sp_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ln3"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/lexend"
+                android:text="Service Provider Name"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16dp" />
+
+            <View
+                android:id="@+id/ln4"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_below="@id/sp_name"
+                android:background="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/sp_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ln4"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/lexend"
+                android:text="Service Provider Phone"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16dp" />
+
+            <View
+                android:id="@+id/ln5"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_below="@id/sp_phone"
+                android:background="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/sp_acct_num"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ln5"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/lexend"
+                android:text="Service Provider Bank Account Detail"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16dp"/>
+            <View
+                android:id="@+id/ln6"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_below="@id/sp_acct_num"
+                android:background="@color/colorPrimaryDark" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/cd_add_to_wishlist_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sp_acct_num"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/buttons"
+                android:fontFamily="@font/lexend"
+                android:text="Add to Wish List"
+                android:textColor="@android:color/white"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+
+    </ScrollView>

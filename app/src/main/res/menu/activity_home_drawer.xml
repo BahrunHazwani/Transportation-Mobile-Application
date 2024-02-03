@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    android:textColor="@android:color/black"
+    android:fontFamily="@font/lexend">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/wish_list"
+            android:icon="@drawable/wish_list"
+            android:title="Wish List"
+            />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/search"
+            android:title="Search" />
+        <item
+            android:id="@+id/nav_displayInfo"
+            android:icon="@drawable/car_type"
+            android:title="Booking Information" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/nav_settings"
+            android:title="Profile Settings" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+    </group>
+</menu>

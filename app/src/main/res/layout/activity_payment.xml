@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Customers.Payment">
+
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bluepurple_gradient"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/online_banking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/lexend"
+            android:text="Payment"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:visibility="invisible"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txt_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/r1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/box_color_2"
+        android:fontFamily="@font/lexend"
+        android:text="You will be redirected to selected bank website to complete the payment.."
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/maybank"
+        android:layout_width="337dp"
+        android:layout_height="102dp"
+        android:layout_below="@+id/txt_info"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/maybank"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/bankIslam"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_below="@+id/maybank"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/bank_islam"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/cimb"
+        android:layout_width="336dp"
+        android:layout_height="87dp"
+        android:layout_below="@id/bankIslam"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/cimb"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/ambank"
+        android:layout_width="340dp"
+        android:layout_height="66dp"
+        android:layout_below="@id/cimb"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/ambank"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/hong_leong"
+        android:layout_width="339dp"
+        android:layout_height="74dp"
+        android:layout_below="@id/ambank"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/hong_bank"
+        android:visibility="invisible" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/next_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="12dp"
+        android:layout_below="@+id/hong_leong"
+        android:background="@drawable/buttons"
+        android:fontFamily="@font/lexend"
+        android:text="Next"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+
+</RelativeLayout>

@@ -1,0 +1,279 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Customers.DisplayBookingInfo">
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/title_sp"
+            android:layout_marginBottom="10dp"
+            android:text="Booking Information"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center"
+            android:fontFamily="@font/lexend"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/bluepurple_gradient" />
+
+        <TextView
+            android:id="@+id/title_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="10dp"
+            android:layout_below="@+id/title_sp"
+            android:fontFamily="@font/lexend"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:background="@drawable/box_color_2"
+            android:text="* Please do check your booking status frequently, if your booking status changed to 'Booking Rejected', your booking information will be removed by Admin *"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16dp"
+            android:textStyle="italic" />
+
+
+        <RelativeLayout
+            android:id="@+id/r1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/title_info"
+            android:background="@drawable/box_color"
+            android:padding="10dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/spName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/lexend"
+                android:text="SP Name "
+                android:textAlignment="viewStart"
+                android:textColor="@android:color/white"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/spPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/spName"
+                android:text="SP Phone "
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/lexend"
+                android:textAlignment="viewStart"
+                android:textColor="@android:color/white"
+                android:textSize="14dp"
+                android:layout_marginTop="25dp"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:id="@+id/dDestination"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spPhone"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/lexend"
+                android:text="Destination"
+                android:textColor="@android:color/white"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dDuration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dDestination"
+                android:fontFamily="@font/lexend"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="25dp"
+                android:text="Duration"
+                android:textColor="@android:color/white"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dPassenger"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dDuration"
+                android:fontFamily="@font/lexend"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="25dp"
+                android:text="Passenger"
+                android:textColor="@android:color/white"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dPayment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dPassenger"
+                android:fontFamily="@font/lexend"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="25dp"
+                android:text="Payment"
+                android:textColor="@android:color/white"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dPaymentMethod"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dPayment"
+                android:fontFamily="@font/lexend"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="25dp"
+                android:text="Payment Method "
+                android:textColor="@android:color/white"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dPaymentMethod"
+                android:fontFamily="@font/lexend"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="25dp"
+                android:text="Phone"
+                android:textColor="@android:color/white"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dPhone"
+                android:fontFamily="@font/lexend"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="25dp"
+                android:text="Time"
+                android:textColor="@android:color/white"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dTime"
+                android:fontFamily="@font/lexend"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="25dp"
+                android:text="Date"
+                android:textColor="@android:color/white"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dstatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dDate"
+                android:fontFamily="@font/lexend"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="25dp"
+                android:text="Status"
+                android:textColor="@android:color/white"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dcarname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dstatus"
+                android:fontFamily="@font/lexend"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="25dp"
+                android:text="Car Name"
+                android:textColor="@android:color/white"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dcartype"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dcarname"
+                android:fontFamily="@font/lexend"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="10dp"
+                android:text="Car Type"
+                android:textColor="@android:color/white"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/back_to_home_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cancel_btn"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/display_button_color"
+                android:fontFamily="@font/lexend"
+                android:text="Back To Home"
+                android:textColor="@android:color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:visibility="invisible"
+
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/cancel_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dcartype"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/display_button_color"
+                android:fontFamily="@font/lexend"
+                android:text="Cancel Booking"
+                android:textColor="@android:color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:visibility="invisible"
+
+                />
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

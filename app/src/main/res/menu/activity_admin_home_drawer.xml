@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/manage_car"
+            android:icon="@drawable/manage_car"
+            android:title="Manage Car" />
+        <item
+            android:id="@+id/check_new_bookings"
+            android:icon="@drawable/nav_book_list"
+            android:title="Check New Bookings" />
+        <item
+            android:id="@+id/check_approve_new_car"
+            android:icon="@drawable/car_approve"
+            android:title="Approve New Car" />
+
+        <item
+            android:id="@+id/manage_user"
+            android:icon="@drawable/manage_user"
+            android:title="Manage User" />
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+    </group>
+</menu>

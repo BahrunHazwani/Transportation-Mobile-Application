@@ -1,0 +1,193 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".ServiceProviders.SPRegistrationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/title_sp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Service Provider Registration"
+            android:gravity="center"
+            android:layout_below="@+id/img_seller"
+            android:fontFamily="@font/lexend"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/bluepurple_gradient"
+            />
+
+
+    <ImageView
+        android:id="@+id/img_sp"
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:src="@drawable/logo" />
+
+
+    <EditText
+        android:id="@+id/spName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_sp"
+        android:textCursorDrawable="@drawable/black_cursor"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:fontFamily="@font/lexend"
+        android:background="@drawable/input_design"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:padding="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/spMatricId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textCursorDrawable="@drawable/black_cursor"
+        android:inputType="textPersonName"
+        android:layout_below="@id/spName"
+        android:background="@drawable/input_design"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:fontFamily="@font/lexend"
+        android:hint="Matric ID"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/spPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spMatricId"
+        android:textCursorDrawable="@drawable/black_cursor"
+        android:background="@drawable/input_design"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:fontFamily="@font/lexend"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/spAcctNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spPhone"
+            android:textCursorDrawable="@drawable/black_cursor"
+            android:padding="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/lexend"
+            android:background="@drawable/input_design"
+            android:hint="Bank Name &amp; Account Number"
+            android:inputType="textPersonName"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/spEmailRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spAcctNum"
+        android:textCursorDrawable="@drawable/black_cursor"
+        android:background="@drawable/input_design"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:fontFamily="@font/lexend"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+
+
+    <EditText
+        android:id="@+id/spPassRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spEmailRegister"
+        android:textCursorDrawable="@drawable/black_cursor"
+        android:background="@drawable/input_design"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:fontFamily="@font/lexend"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/sp_register_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spPassRegister"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:fontFamily="@font/lexend"
+        android:padding="17dp"
+        android:text="Create Account"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="19sp"
+        android:background="@drawable/buttons"
+        android:textColor="@android:color/white"/>
+
+
+        <TextView
+            android:id="@+id/login_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sp_register_btn"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/lexend"
+            android:text="Already have an Account? Login"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</ScrollView>

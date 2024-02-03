@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/drawable/background_splashscreen.xml" value="0.1335" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/drawable/black_cursor.xml" value="0.136" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/drawable/box_color.xml" value="0.1335" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/drawable/box_color_2.xml" value="0.1335" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/drawable/buttons.xml" value="0.1335" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/drawable/input_design.xml" value="0.1335" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/layout/activity_admin_check_new_cars.xml" value="0.25" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/layout/activity_admin_customer_bookings.xml" value="0.25" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/layout/activity_admin_home.xml" value="0.2" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/layout/activity_admin_manage_booking.xml" value="0.25" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/layout/activity_admin_manage_car.xml" value="0.15885416666666666" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/layout/activity_admin_manage_customer.xml" value="0.264" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/layout/activity_admin_manage_sp.xml" value="0.25" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/layout/activity_admin_manage_user.xml" value="0.264" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/layout/activity_admin_new_bookings.xml" value="0.1640625" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/layout/activity_admin_recycle_view_home.xml" value="0.25" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/layout/activity_car_details.xml" value="0.25" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/layout/activity_confirm_final_booking.xml" value="0.264" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/layout/activity_display_booking_info.xml" value="0.2" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/layout/activity_login.xml" value="0.14010416666666667" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/layout/activity_payment.xml" value="0.25" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/layout/activity_reset_password.xml" value="0.25" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/layout/activity_search_car.xml" value="0.20462962962962963" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/layout/activity_sp_add_new_car.xml" value="0.25" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/layout/activity_sp_car_category.xml" value="0.1640625" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/layout/activity_sp_forgot_password.xml" value="0.20462962962962963" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/layout/activity_sp_login.xml" value="0.14010416666666667" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/layout/activity_sp_manage_booking.xml" value="0.25" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/layout/activity_sp_manage_car.xml" value="0.25" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/layout/activity_sp_registration.xml" value="0.25" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/layout/activity_wish_list.xml" value="0.25" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/layout/app_bar_admin_home.xml" value="0.25" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/layout/app_bar_home.xml" value="0.25" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/layout/bookings_layout.xml" value="0.25" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/layout/cars_layout.xml" value="0.264" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/layout/content_admin_home.xml" value="0.14010416666666667" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/layout/customer_home_cars_layout.xml" value="0.20462962962962963" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/layout/display_booking_information.xml" value="0.264" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/layout/manage_customer_layout.xml" value="0.25" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/layout/manage_sp_layout.xml" value="0.264" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/layout/manage_user_layout.xml" value="0.1265625" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/layout/nav_header_admin_home.xml" value="0.14010416666666667" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/layout/search_layout.xml" value="0.25" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/layout/sp_booking_layout.xml" value="0.25" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/layout/sp_cars_view.xml" value="0.25" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/layout/wish_cars_layout.xml" value="0.25" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/menu/activity_admin_home_drawer.xml" value="0.4" />
+        <entry key="..\:/Software Engineering/DEGREE/SEM 9/FYP 2/Coding/Unisel Transportation/app/src/main/res/menu/bottom_nav_menu.xml" value="0.15885416666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

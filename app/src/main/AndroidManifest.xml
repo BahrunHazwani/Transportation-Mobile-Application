@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.transportationapp">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TransportationApp">
+        <activity
+            android:name=".Admin.AdminManageSP"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminManageCustomer"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminHome"
+            android:exported="false"
+            android:label="@string/title_activity_admin_home2"
+            android:theme="@style/Theme.TransportationApp.NoActionBar" />
+        <activity
+            android:name=".ServiceProviders.Sp_Forgot_Password"
+            android:exported="false" />
+        <activity
+            android:name=".ServiceProviders.SPProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Transition"
+            android:exported="false" />
+        <activity
+            android:name=".Customers.Payment"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminManageUser"
+            android:exported="false" />
+        <activity
+            android:name=".ServiceProviders.SPManageCar"
+            android:exported="false" />
+        <activity
+            android:name=".ServiceProviders.SPManageBooking"
+            android:exported="false" />
+        <activity
+            android:name=".Customers.DisplayBookingInfo"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminCheckNewCarsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ServiceProviders.SPHomeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_sphome" />
+        <activity
+            android:name=".ServiceProviders.SPLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ServiceProviders.SPRegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Customers.ResetPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminRecycleViewHome"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminManageCar"
+            android:exported="false" />
+        <activity
+            android:name=".Customers.SearchCarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminCustomerBookingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminManageBookingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Customers.ConfirmFinalBookingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Customers.WishListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Customers.CarDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Customers.SettingsActivity"
+            android:exported="false" />
+        <activity android:name=".Customers.MainActivity" />
+        <activity
+            android:name=".Customers.HomeActivity"
+            android:exported="false"
+            android:theme="@style/Theme.TransportationApp" />
+        <activity
+            android:name=".ServiceProviders.SPCarCategory"
+            android:exported="false" />
+        <activity
+            android:name=".ServiceProviders.SPAddNewCar"
+            android:exported="false" />
+        <activity
+            android:name=".Customers.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Customers.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Customers.SplashScreen"
+            android:exported="true"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
